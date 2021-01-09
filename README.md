@@ -4,7 +4,7 @@ Estructuras de Datos
 Práctica 10: Diccionarios
 -------------------------
 
-### Fecha de entrega: martes 19 de enero, 2021
+### Fecha de entrega: martes 26 de enero, 2021
 
 Deben completar los métodos faltantes de la clase
 [`Diccionario`](https://aztlan.fciencias.unam.mx/gitlab/2021-1-edd/practica10/blob/master/src/main/java/mx/unam/ciencias/edd/Diccionario.java).
