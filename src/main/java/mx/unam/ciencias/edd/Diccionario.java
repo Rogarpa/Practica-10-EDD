@@ -314,8 +314,9 @@ public class Diccionario<K, V> implements Iterable<V> {
                 int max = 0;
                 int i = 0;
                 while(i < entradas.length)
-                if(max < entradas[i].getElementos()) 
-                max = entradas[i++].getElementos();
+                    if(max < entradas[i].getElementos()) 
+                        max = entradas[i++].getElementos();
+                return max;
             }
             
             /**
@@ -356,8 +357,9 @@ public class Diccionario<K, V> implements Iterable<V> {
             * @return una representación en cadena del diccionario.
             */
             @Override public String toString() {
-                // Aquí va su código.
+                return "";
             }
+            
             
             /**
             * Nos dice si el diccionario es igual al objeto recibido.
@@ -371,7 +373,8 @@ public class Diccionario<K, V> implements Iterable<V> {
                 return false;
                 @SuppressWarnings("unchecked") Diccionario<K, V> d =
                 (Diccionario<K, V>)o;
-                // Aquí va su código.
+                
+                return true;
             }
             
             /**
